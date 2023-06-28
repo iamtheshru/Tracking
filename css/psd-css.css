@@ -594,20 +594,19 @@ ul li:hover {
 
 .menu-right ul li {
     display: none;
-
 }
 
 .menu-right ul {
     position: absolute;
     left: -200px;
-    width: 80%;
+    top: 85px;
+    width: 100%;
     /* background-color: #776c642d; */
-    transition: all 2s ease-in-out;
+    transition: all 3s ease-in-out;
     border-radius: 20px;
     overflow: hidden;
     background-color: #e2a25553;
     backdrop-filter: blur(60px);
-
 }
 
 .menu-right ul li {
@@ -633,7 +632,8 @@ ul li:hover {
 
 .dips-b-mobile ul {
     position: absolute;
-    left: -15px;
+    left: 0px;
+    top: 86px;
 }
 
 .dips-b-mobile ul li {
